@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ToolLibrary>
+  <Tools>
+    <Tool Units="Millimeter">
+      <Basic>
+        <Workcell>23</Workcell>
+        <Head>1</Head>
+        <ID>ROUGHING</ID>
+        <Pocket>1</Pocket>
+        <Teeth>2</Teeth>
+        <Type>Milling</Type>
+      </Basic>
+      <Cutter>
+        <Apt ID="Cutter1" Type="APT 7">
+          <Diameter>4.000000</Diameter>
+          <Radius>0.000000</Radius>
+          <ECorner>2.000000</ECorner>
+          <FCorner>0.000000</FCorner>
+          <Alpha>0.000000</Alpha>
+          <Beta>0.000000</Beta>
+          <Length>100.000000</Length>
+          <SpindleDirection>CW</SpindleDirection>
+        </Apt>
+      </Cutter>
+      <AttachPoint>
+        <X>0.000000</X>
+        <Y>0.000000</Y>
+        <Z>0.000000</Z>
+      </AttachPoint>
+    </Tool>
+    <Tool Units="Millimeter">
+      <Basic>
+        <Workcell>23</Workcell>
+        <Head>1</Head>
+        <ID>FINISHING</ID>
+        <Pocket>2</Pocket>
+        <Teeth>2</Teeth>
+        <Type>Milling</Type>
+      </Basic>
+      <Cutter>
+        <Apt ID="Cutter1" Type="APT 7">
+          <Diameter>2.000000</Diameter>
+          <Radius>1.000000</Radius>
+          <ECorner>0.000000</ECorner>
+          <FCorner>1.000000</FCorner>
+          <Alpha>0.000000</Alpha>
+          <Beta>0.000000</Beta>
+          <Length>100.000000</Length>
+          <SpindleDirection>CW</SpindleDirection>
+        </Apt>
+      </Cutter>
+      <AttachPoint>
+        <X>0.000000</X>
+        <Y>0.000000</Y>
+        <Z>0.000000</Z>
+      </AttachPoint>
+    </Tool>
+  </Tools>
+</ToolLibrary>
